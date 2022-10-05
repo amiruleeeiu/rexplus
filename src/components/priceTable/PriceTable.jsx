@@ -2,16 +2,13 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './priceTable.scss'
 import { FaGift } from 'react-icons/fa';
+import SectionTop from '../sectionTop/SectionTop';
 
 const PriceTable = () => {
     return (
         <div className='pricePable'>
             <Container>
-                <div className="service_top">
-                    <span><FaGift/></span>
-                    <h2>Awesome Price Table</h2>
-                </div>
-                
+                <SectionTop title='Awesome Price Table' hideTitle='Our Offers' icon={<FaGift/>}/>
                 <Row>
                     <Col md={4}>
                         <div md={4} className='priceTable_card'>

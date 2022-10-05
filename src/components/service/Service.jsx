@@ -44,6 +44,7 @@ const Service = () => {
                 <img src={serviceLogo} alt="service" />
                 <h2>Our Core Services</h2>
             </div>
+            
             <Row className='services_items'>
                 {
                     SERVICE_DATA.map((service,index)=><Col  md={4} sm={6} key={index}><ServiceCard service={service}/></Col>)

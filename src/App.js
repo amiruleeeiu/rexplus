@@ -33,13 +33,13 @@ function App() {
       <Faq/>
       <CreativeWork/>
       <GeniousPeople/>
+      <PartnerCarousel/>
       <Blog/>
       <Partners/>
       <Award/>
       <Contact/>
       <Map/>
       <Footer/>
-      {/* <PartnerCarousel/> */}
     </BrowserRouter>
   );
 }

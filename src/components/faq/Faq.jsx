@@ -1,13 +1,13 @@
 import React from 'react';
 import { Accordion, Col, Row } from 'react-bootstrap';
 import './faq.scss'
-import blog3 from '../../assects/blog-3.jpg'
+import bg2 from '../../assects/bg-2.jpg'
 
 const Faq = () => {
     return (
         <Row className='faq'>
             <Col md={6} className='faq_image'>
-                <img src={blog3} alt="" className='w-100 h-100' />
+                <img src={bg2} alt="" className='w-100 h-100' />
                 <div className='image_overlay'>
                     <div>
                         <i class="ri-play-circle-line"></i>

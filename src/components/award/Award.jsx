@@ -10,7 +10,7 @@ import award3 from '../../assects/award-3.png'
 const Partners = () => {
     return (
         <Container>
-            <SectionTop title='We Are The Best' icon={<MdSecurity/>}/>
+            <SectionTop title='We Are The Best' hideTitle='Our Awards' icon={<MdSecurity/>}/>
             <Row className='award'>
                 <Col md={3} className='award_item'>
                     <img src={award1} alt="" />

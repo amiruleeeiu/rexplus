@@ -3,14 +3,12 @@ import './about.scss'
 import aboutimg from '../../assects/about-2.jpg'
 import { BiLoaderCircle } from 'react-icons/bi';
 import { Col, Container, Row } from 'react-bootstrap';
+import SectionTop from '../sectionTop/SectionTop';
 
 const About = () => {
     return (
         <div className='about'>
-            <div className="about_top">
-                <span><BiLoaderCircle/></span>
-                <h2>About The Fancy</h2>
-            </div>
+            <SectionTop title='About The Fancy' hideTitle='Who We Are' icon={<BiLoaderCircle/>}/>
             <Container className='about_content'>
                 <Row>
                     <Col md={6}>

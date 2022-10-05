@@ -10,7 +10,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 const Blog = () => {
     return (
         <Container className='blog'>
-            <SectionTop title='From The Blog' icon={<ImBlogger/>}/>
+            <SectionTop title='From The Blog' hideTitle='The News' icon={<ImBlogger/>}/>
             <Row>
                 <Col md={4} className="blog_item">
                     <img src={blog1} alt="" />

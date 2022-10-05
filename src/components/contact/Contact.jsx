@@ -10,7 +10,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 const Contact = () => {
     return (
         <Container className='contact mb-5'>
-            <SectionTop title='Get In Touch' icon={<FaEnvelope/>}/>
+            <SectionTop title='Get In Touch' hideTitle='Contact' icon={<FaEnvelope/>}/>
             <Row className='mt-3'>
                 <Col md={9} className='contact_form'>
                     <h4 className='fw-bold mb-4'>Drop Line Here</h4>

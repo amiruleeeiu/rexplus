@@ -14,7 +14,7 @@ import { FaGooglePlusG } from 'react-icons/fa';
 const GeniousPeople = () => {
     return (
         <>
-            <SectionTop title='Our Genious People' icon={<HiUserGroup/>}/>
+            <SectionTop title='Our Genious People' hideTitle='Team Members' icon={<HiUserGroup/>}/>
             <div className='geniousPeople_details d-flex aligin-items-center justify-content-center flex-wrap'>
                 <div md={3} className='geniousPeople'>
                     <img src={team1} alt="team1" />

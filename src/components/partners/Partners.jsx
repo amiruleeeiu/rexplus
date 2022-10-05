@@ -11,7 +11,7 @@ import partner5 from '../../assects/5.png'
 const Partners = () => {
     return (
         <div className="partner">
-            <SectionTop title='Partners Area' icon={<BiRectangle/>}/>
+            <SectionTop title='Partners Area' hideTitle='Our Partners' icon={<BiRectangle/>}/>
             <div className="d-flex items-center justify-content-center flex-wrap">
                 <img src={partner1} alt="" />
                 <img src={partner2} alt="" />

@@ -14,7 +14,7 @@ import { FaAngleDoubleRight } from 'react-icons/fa';
 const CreativeWork = () => {
     return (
         <div>
-            <SectionTop title='Recent Creative Work' icon={<FaRegSnowflake/>}/>
+            <SectionTop title='Recent Creative Work' hideTitle='Our Portfolio' icon={<FaRegSnowflake/>}/>
             <div className="project_type">
                 <button>All Project</button>
                 <button>Graphic</button>

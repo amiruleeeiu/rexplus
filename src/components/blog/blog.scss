@@ -1,0 +1,28 @@
+.blog{
+    margin: 50px 0px;
+    .blog_item{
+        h5{
+            margin-top: 20px;
+            color: rgb(11, 77, 165) ;
+        }
+        h4{
+            font-weight: bold;
+            opacity: .9;
+            transition: .5s;
+        }
+        h4:hover{
+            color: rgb(11, 78, 165) ;
+            cursor: pointer;
+        }
+        p{
+            opacity: .9;
+            margin-top: 10px;
+        }
+        button{
+            border: none;
+            background: white;
+            color: rgb(17, 78, 158) ;
+            font-weight: 600;
+        }
+    }
+}

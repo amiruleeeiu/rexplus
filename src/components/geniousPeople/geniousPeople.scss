@@ -1,0 +1,45 @@
+.geniousPeople_details{
+    margin: 20px;
+    .geniousPeople{
+        position: relative;
+        margin: 10px;
+        width: 250px;
+        height: 250px; 
+        img{
+            display: block;
+            width: 100%;
+            border-radius: 50%;
+        }
+        .user_content{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: rgba(0,0,0,.6);
+            color: #ffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            opacity: 0;
+            transition: .4s;
+            .social_icon{
+                span{
+                    color: rgb(34, 122, 236);
+                    background: #fff;
+                    margin: 5px;
+                    padding: 5px 8px;
+                    border-radius: 100%;
+                    cursor: pointer;
+                    justify-content: center;
+                }
+            }
+        }
+        .user_content:hover{
+            opacity: 1;
+        }
+    }
+    
+}

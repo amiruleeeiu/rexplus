@@ -1,0 +1,29 @@
+.award{
+    text-align: center;
+    margin: 30px 0px;
+    .award_item{
+        margin: 30px 0px;
+        img{
+            transition: 1s;
+            margin-bottom: 20px;
+        }
+        p{
+            margin-top: 10px;
+            opacity: .9;
+        }
+        h6{
+            font-weight: bold;
+        }
+        button{
+            border: none;
+            background: white;
+            color: rgb(11, 77, 165);
+            font-weight: 600;
+        }
+    }
+}
+.award_item:hover{
+    img{
+        transform: rotate(15deg);
+    }
+}

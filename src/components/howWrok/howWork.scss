@@ -1,0 +1,27 @@
+.howWork{
+    background: rgb(34, 58, 163);
+}
+
+.howWork_content{
+    color: white;
+    padding: 50px !important;
+    span{
+        color: rgb(82, 193, 236);
+        font-size: 40px;
+    }
+    h2{
+        margin-bottom: 50px;
+    }
+    .howWork_card{
+        background:rgb(65, 92, 214) ;
+        padding: 20px;
+        margin-top: 20px;
+        border-left: 3px solid rgb(14, 186, 230);
+        h5{
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}

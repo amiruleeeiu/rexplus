@@ -1,0 +1,66 @@
+.contact_form{
+    .btn{
+        border: 1px solid rgb(15, 92, 236);
+        color:rgb(15, 92, 236);
+        transition: ease-out .3s;
+        outline: none;
+        padding: 8px 20px;
+        margin-top: 10px;
+        border-radius: 20px;
+        position: relative;
+        z-index: 1;
+    }
+    .btn:hover{
+    }
+    .btn:before{
+        transition: .5s all ease;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        right: 50%;
+        bottom: 0;
+        opacity: 0;
+        content:"";
+        background: rgb(8, 47, 119);
+        border-radius: 20px;
+    }
+    .btn:hover:before{
+        transition: .5s all ease;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        z-index: -1;
+        color: white !important;
+    }
+    
+}
+.address{
+    span{
+        color: rgb(15, 30, 236);
+        font-size: 20px;
+        margin-bottom: 10px !important;
+    }
+    h5{
+        font-weight: bold;
+    }
+    p{
+        opacity: .9;
+    }
+    .media_icon{
+        span{
+            i{
+                padding: 10px;
+                background: rgb(15, 30, 236);
+                color: white;
+                margin: 5px;
+                border-radius: 100%;
+                cursor: pointer;
+                font-size: 15px;
+                transition: .2s;
+            }
+            i:hover{
+                background: rgb(6, 148, 214);
+            }
+        }
+    }
+}

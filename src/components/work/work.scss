@@ -1,0 +1,48 @@
+.work_container{
+    background: rgb(42, 70, 196);
+    padding: 100px 0px;
+    color: white;
+    .work_top{
+        text-align: center;
+        img{
+            width: 5%;
+        }
+        h2{
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    }
+    .work_content{
+        margin-top: 50px;
+        .work_item{
+            background: rgb(57, 88, 224);
+            
+            margin: 10px 0px;
+            transition: .5s;
+            display: flex;
+            align-items: center;
+            .work_item_content{
+                padding: 20px 60px;
+                p{
+                    font-size: 15px;
+                }
+            }
+            .work_item_icon{
+                position: absolute;
+                height: 70px;
+                width: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 30px;
+                border-radius: 100%;
+                background: rgb(46, 161, 206);
+                
+            }
+        }
+        .work_item:hover{
+            background: rgb(46, 161, 206);
+        }
+    }
+    
+}

@@ -1,0 +1,32 @@
+.pricePable{
+    text-align: center;
+    background: rgb(235, 233, 233);
+    padding: 20px 0px;
+    span{
+        font-size: 40px;
+        color: rgb(2, 164, 204);
+    }
+    .priceTable_card{
+        background: white;
+        padding: 40px;
+        width: 350px;
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-left: 20px;
+        p{
+            opacity: .8;
+        }
+        button{
+            padding: 5px 30px;
+            border:1px solid rgb(42, 70, 196);
+            color: rgb(42, 70, 196);
+            background: white;
+            border-radius: 20px;
+            transition: .6s;
+        }
+        button:hover{
+            background:rgb(42, 70, 196);
+            color: white;
+        }
+    }
+}

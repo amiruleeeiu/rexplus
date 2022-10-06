@@ -5,7 +5,7 @@ const WorkItem = ({index,work}) => {
     console.log(work.icon);
     return (
         <div className='work_item'>
-            <div className="work_item_icon" style={(index+1)%2===0 ? {right:'6%'} : {left:'6%'}}>
+            <div className={`${(index+1)%2===0 ? 'right_direction': 'left_direction'} work_item_icon`}>
                 {work.icon}
             </div>
             <div className='work_item_content'>

@@ -16,12 +16,13 @@
 }
 
 .projects{
-
     .project_item{
         position: relative;
+        z-index: 2;
         img{
             display: block;
             width: 105%;
+            transition: 3s;
         }
         .project_over{
             position: absolute;
@@ -36,7 +37,6 @@
             justify-content: center;
             text-align: center;
             opacity: 0;
-            transition: 1s;
 
             span{
                 font-size: 30px;
@@ -52,8 +52,10 @@
         
     }
     .project_item:hover{
+        z-index: 1;
         img{
-            transition-duration: 500ms;
+            // transition-duration: 500ms;
+            transform: scaleX(1.1);
         }
         .project_over:hover{
             opacity: 1;

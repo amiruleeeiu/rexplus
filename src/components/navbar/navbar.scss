@@ -55,6 +55,9 @@
     .nav{
         align-items: center;
         justify-content: space-between;
+        .logo{
+            margin-left: 20px;
+        }
         .nav_items{
             display: none;
         }

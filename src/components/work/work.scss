@@ -39,10 +39,29 @@
                 background: rgb(46, 161, 206);
                 
             }
+            .left_direction{
+                left: 6%;
+            }
+            .right_direction{
+                right: 6%;
+            }
         }
         .work_item:hover{
             background: rgb(46, 161, 206);
         }
     }
     
+}
+
+@media only screen and (max-width: 700px){
+    .work_container{
+        .work_content{
+            .work_item{
+                .work_item_icon{
+                    display: none;
+                }
+                
+            }
+        }
+    }
 }

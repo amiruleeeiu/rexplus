@@ -23,9 +23,9 @@ const CreativeWork = () => {
                 <button>Others</button>
             </div>
             <Row className='projects'>
-                <Col md={3} className='project_item'>
+                <Col md={3} className='project_item g-0'>
                     
-                    <img src={pro1} alt="project1" />
+                    <img src={pro1} alt="project1" className='w-100'/>
                     <div className='project_over'>
                         <div>
                             <span><FaSearchPlus/></span>
@@ -34,8 +34,8 @@ const CreativeWork = () => {
                         </div>
                     </div>
                 </Col>
-                <Col md={3} className='project_item'>
-                    <img src={pro2} alt="project1" />
+                <Col md={3} className='project_item g-0'>
+                    <img src={pro2} alt="project1" className='w-100'/>
                     <div className='project_over'>
                         <div className='project_view'>
                             <span><FaSearchPlus/></span>
@@ -44,8 +44,8 @@ const CreativeWork = () => {
                         </div>
                     </div>
                 </Col>
-                <Col md={3} className='project_item'>
-                    <img src={pro3} alt="project1" />
+                <Col md={3} className='project_item g-0'>
+                    <img src={pro3} alt="project1" className='w-100'/>
                     <div className='project_over'>
                         <div>
                             <span><FaSearchPlus/></span>
@@ -54,8 +54,8 @@ const CreativeWork = () => {
                         </div>
                     </div>
                 </Col>
-                <Col md={3} className='project_item'>
-                    <img src={pro4} alt="project1" />
+                <Col md={3} className='project_item g-0'>
+                    <img src={pro4} alt="project1" className='w-100'/>
                     <div className='project_over'>
                         <div>
                             <span><FaSearchPlus/></span>
@@ -64,8 +64,8 @@ const CreativeWork = () => {
                         </div>
                     </div>
                 </Col>
-                <Col md={3} className='project_item'>
-                    <img src={pro5} alt="project1" />
+                <Col md={3} className='project_item g-0'>
+                    <img src={pro5} alt="project1" className='w-100'/>
                     <div className='project_over'>
                         <div>
                             <span><FaSearchPlus/></span>
@@ -74,8 +74,8 @@ const CreativeWork = () => {
                         </div>
                     </div>
                 </Col>
-                <Col md={3} className='project_item'>
-                    <img src={pro2} alt="project1" />
+                <Col md={3} className='project_item g-0'>
+                    <img src={pro2} alt="project1" className='w-100'/>
                     <div className='project_over'>
                         <div>
                             <span><FaSearchPlus/></span>
@@ -84,7 +84,26 @@ const CreativeWork = () => {
                         </div>
                     </div>
                 </Col>
-                
+                <Col md={3} className='project_item g-0'>
+                    <img src={pro3} alt="project1" className='w-100'/>
+                    <div className='project_over'>
+                        <div>
+                            <span><FaSearchPlus/></span>
+                            <br />
+                            <p>View Project <FaAngleDoubleRight/></p>
+                        </div>
+                    </div>
+                </Col>
+                <Col md={3} className='project_item g-0'>
+                    <img src={pro4} alt="project1" className='w-100'/>
+                    <div className='project_over'>
+                        <div>
+                            <span><FaSearchPlus/></span>
+                            <br />
+                            <p>View Project <FaAngleDoubleRight/></p>
+                        </div>
+                    </div>
+                </Col>
                 
             </Row>
 

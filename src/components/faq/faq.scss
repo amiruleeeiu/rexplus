@@ -1,6 +1,4 @@
-// .accordion_number{
-    
-// }
+
 .faq{
     background: rgb(32, 98, 221);
     min-height: 600px;
@@ -52,5 +50,16 @@
             }
         }
         
+    }
+}
+
+@media only screen and (max-width: 700px){
+    
+.faq{
+    .accordion{
+        .accordion_details{
+            padding:15px;
+            }
+        }
     }
 }

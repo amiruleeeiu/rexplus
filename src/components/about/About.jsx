@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.scss'
-import aboutimg from '../../assects/about-2.jpg'
+import about1 from '../../assects/about-1.jpg'
+import about2 from '../../assects/about-2.jpg'
 import { BiLoaderCircle } from 'react-icons/bi';
 import { Col, Container, Row } from 'react-bootstrap';
 import SectionTop from '../sectionTop/SectionTop';
@@ -11,8 +12,11 @@ const About = () => {
             <SectionTop title='About The Fancy' hideTitle='Who We Are' icon={<BiLoaderCircle/>}/>
             <Container className='about_content'>
                 <Row>
-                    <Col md={6}>
-                        <img src={aboutimg} alt="" />
+                    <Col md={6} className='about_image'>
+                        <img src={about1} alt="" />
+                        <div className='about_image_over'>
+                            <img src={about2} alt="" />
+                        </div>
                     </Col>
                     <Col md={6} className='about_details'>
                         <h2>Welcome to Fancy Business & Agency Platfrom.</h2>

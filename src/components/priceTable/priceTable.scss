@@ -1,7 +1,7 @@
 .pricePable{
     text-align: center;
     background: rgb(235, 233, 233);
-    padding: 20px 0px;
+    padding: 80px 0px;
     span{
         font-size: 40px;
         color: rgb(2, 164, 204);
@@ -9,10 +9,10 @@
     .priceTable_card{
         background: white;
         padding: 40px;
-        width: 350px;
         border-radius: 5px;
-        margin-top: 50px;
-        margin-left: 20px;
+        margin-top: 20px;
+        position: relative;
+        transition: .6s;
         p{
             opacity: .8;
         }
@@ -27,6 +27,23 @@
         button:hover{
             background:rgb(42, 70, 196);
             color: white;
+        }
+        .indicator_hover{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgb(219, 221, 230);
+            height: 50px;
+            width: 50px;
+            border-radius: 0px 0px 30px 30px;
+            transition: .6s;
+        }
+    }
+    .priceTable_card:hover{
+        box-shadow: 1px 1px 15px 10px #d4d1d1;
+        .indicator_hover{
+            background: rgb(42, 70, 196);
+            
         }
     }
 }

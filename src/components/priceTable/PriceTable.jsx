@@ -26,6 +26,7 @@ const PriceTable = () => {
                             <p>Email Read Receipent</p>
                             <p>2 Users Free</p>
                             <button>SIGN UP</button>
+                            <div className='indicator_hover'></div>
                         </div>
                     </Col>
                     <Col md={4}>
@@ -44,6 +45,7 @@ const PriceTable = () => {
                             <p>Email Read Receipent</p>
                             <p>2 Users Free</p>
                             <button>SIGN UP</button>
+                            <div className='indicator_hover'></div>
                         </div>
                     </Col>
                     <Col md={4}>
@@ -62,6 +64,7 @@ const PriceTable = () => {
                             <p>Email Read Receipent</p>
                             <p>2 Users Free</p>
                             <button>SIGN UP</button>
+                            <div className='indicator_hover'></div>
                         </div>
                     </Col>
 

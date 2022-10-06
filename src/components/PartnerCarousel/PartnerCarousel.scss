@@ -1,7 +1,12 @@
 .carousel{
     margin: 50px 0px;
+    width: 100%;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(26, 34, 58, 0.7) 100%), url('../../assects/bg-3.jpg');
-
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 550px;
     .partner_details{
         padding: 100px;
         .partner_img{
@@ -29,7 +34,7 @@
     content: ''!important;
     background: white;
     width: 10px !important;
-    top: -60px !important;
+    top: -100px !important;
     height: 20px !important;
     opacity: 1 !important;
         

@@ -1,10 +1,9 @@
 import React from 'react';
 import SectionTop from '../sectionTop/SectionTop';
-import './blog.scss'
 import { ImBlogger } from 'react-icons/im';
-import blog1 from '../../assects/blog-1.jpg'
-import blog2 from '../../assects/blog-2.jpg'
-import blog3 from '../../assects/blog-3.jpg'
+import blog1 from '../../assects/images/blog-1.jpg'
+import blog2 from '../../assects/images/blog-2.jpg'
+import blog3 from '../../assects/images/blog-3.jpg'
 import { Col, Container, Row } from 'react-bootstrap';
 
 const Blog = () => {

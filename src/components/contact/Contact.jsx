@@ -1,6 +1,5 @@
 import React from 'react';
 import SectionTop from '../sectionTop/SectionTop';
-import './contact.scss'
 import { FaEnvelope } from 'react-icons/fa';
 import { Col, Container, Form, InputGroup, Row } from 'react-bootstrap';
 import { MdLocationPin } from 'react-icons/md';

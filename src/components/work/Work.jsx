@@ -1,6 +1,5 @@
 import React from 'react';
-import './work.scss'
-import workImg from '../../assects/work.png'
+import workImg from '../../assects/images/work.png'
 import { Col, Container, Row } from 'react-bootstrap';
 import WorkItem from './WorkItem';
 import { AiOutlineUser } from 'react-icons/ai';

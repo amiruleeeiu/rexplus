@@ -1,13 +1,12 @@
 import React from 'react';
 import SectionTop from '../sectionTop/SectionTop';
-import './creativeWork.scss'
 import { FaRegSnowflake } from 'react-icons/fa';
 import { Col, Row } from 'react-bootstrap';
-import pro1 from '../../assects/pro-1.jpg'
-import pro2 from '../../assects/pro-2.jpg'
-import pro3 from '../../assects/pro-3.jpg'
-import pro4 from '../../assects/pro-4.jpg'
-import pro5 from '../../assects/pro-5.jpg'
+import pro1 from '../../assects/images/pro-1.jpg'
+import pro2 from '../../assects/images/pro-2.jpg'
+import pro3 from '../../assects/images/pro-3.jpg'
+import pro4 from '../../assects/images/pro-4.jpg'
+import pro5 from '../../assects/images/pro-5.jpg'
 import { FaSearchPlus } from 'react-icons/fa';
 import { FaAngleDoubleRight } from 'react-icons/fa';
 

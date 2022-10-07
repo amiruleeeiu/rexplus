@@ -1,7 +1,6 @@
 import React from 'react';
 import { Accordion, Col, Row } from 'react-bootstrap';
-import './faq.scss'
-import bg2 from '../../assects/bg-2.jpg'
+import bg2 from '../../assects/images/bg-2.jpg'
 
 const Faq = () => {
     return (

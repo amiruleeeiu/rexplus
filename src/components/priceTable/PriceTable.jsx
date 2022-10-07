@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import './priceTable.scss'
 import { FaGift } from 'react-icons/fa';
 import SectionTop from '../sectionTop/SectionTop';
 

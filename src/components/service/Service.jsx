@@ -1,6 +1,5 @@
 import React from 'react';
-import './service.scss'
-import serviceLogo from '../../assects/service.jpg'
+import serviceLogo from '../../assects/images/service.jpg'
 import ServiceCard from './ServiceCard';
 import {Container,Row ,Col} from 'react-bootstrap'
 

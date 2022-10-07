@@ -1,12 +1,11 @@
 import React from 'react';
 import SectionTop from '../sectionTop/SectionTop';
-import './partners.scss'
 import { BiRectangle } from 'react-icons/bi';
-import partner1 from '../../assects/1.png'
-import partner2 from '../../assects/2.png'
-import partner3 from '../../assects/3.png'
-import partner4 from '../../assects/4.png'
-import partner5 from '../../assects/5.png'
+import partner1 from '../../assects/images/1.png'
+import partner2 from '../../assects/images/2.png'
+import partner3 from '../../assects/images/3.png'
+import partner4 from '../../assects/images/4.png'
+import partner5 from '../../assects/images/5.png'
 
 const Partners = () => {
     return (

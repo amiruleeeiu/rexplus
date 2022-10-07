@@ -2,8 +2,7 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { FaExchangeAlt } from 'react-icons/fa';
 import HowWorkCard from './HowWorkCard';
-import './howWork.scss'
-import oldman from '../../assects/oldman.jpg'
+import oldman from '../../assects/images/oldman.jpg'
 
 const HOWwORKS_DATA=[
     {

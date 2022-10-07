@@ -1,11 +1,10 @@
 import React from 'react';
-import './PartnerCarousel.scss'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import banner from '../../assects/download.png'
-import partner1 from '../../assects/team-1.jpg'
-import partner2 from '../../assects/team-2.jpg'
-import partner3 from '../../assects/team-3.jpg'
+import banner from '../../assects/images/download.png'
+import partner1 from '../../assects/images/team-1.jpg'
+import partner2 from '../../assects/images/team-2.jpg'
+import partner3 from '../../assects/images/team-3.jpg'
 import Slider from 'react-slick';
 
 const PartnerCarousel = () => {

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import'./histroy.scss'
 import { TbUserCircle } from 'react-icons/tb';
 import { MdOutlineCloudDone } from 'react-icons/md';
 import { AiOutlineSetting } from 'react-icons/ai';

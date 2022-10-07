@@ -1,11 +1,10 @@
 import React from 'react';
 import SectionTop from '../sectionTop/SectionTop';
-import './award.scss'
 import { MdSecurity } from 'react-icons/md';
 import { Col, Container, Row } from 'react-bootstrap';
-import award1 from '../../assects/award-1.png'
-import award2 from '../../assects/award-2.png'
-import award3 from '../../assects/award-3.png'
+import award1 from '../../assects/images/award-1.png'
+import award2 from '../../assects/images/award-2.png'
+import award3 from '../../assects/images/award-3.png'
 
 const Partners = () => {
     return (

@@ -1,12 +1,10 @@
 import React from 'react';
 import SectionTop from '../sectionTop/SectionTop';
-import './geniousPeople.scss'
 import { HiUserGroup } from 'react-icons/hi';
-import { Col, Container, Row } from 'react-bootstrap';
-import team1 from '../../assects/team-1.jpg'
-import team2 from '../../assects/team-2.jpg'
-import team3 from '../../assects/team-3.jpg'
-import team4 from '../../assects/team-4.jpg'
+import team1 from '../../assects/images/team-1.jpg'
+import team2 from '../../assects/images/team-2.jpg'
+import team3 from '../../assects/images/team-3.jpg'
+import team4 from '../../assects/images/team-4.jpg'
 import { FaFacebookF } from 'react-icons/fa';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { FaGooglePlusG } from 'react-icons/fa';

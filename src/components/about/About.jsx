@@ -1,7 +1,6 @@
 import React from 'react';
-import './about.scss'
-import about1 from '../../assects/about-1.jpg'
-import about2 from '../../assects/about-2.jpg'
+import about1 from '../../assects/images/about-1.jpg'
+import about2 from '../../assects/images/about-2.jpg'
 import { BiLoaderCircle } from 'react-icons/bi';
 import { Col, Container, Row } from 'react-bootstrap';
 import SectionTop from '../sectionTop/SectionTop';

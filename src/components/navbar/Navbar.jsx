@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './navbar.scss'
-import logo from '../../assects/logo.png'
+import logo from '../../assects/images/logo.png'
 import {NavLink } from 'react-router-dom'
 import { Dropdown } from 'react-bootstrap';
 

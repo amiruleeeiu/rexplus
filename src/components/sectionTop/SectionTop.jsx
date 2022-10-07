@@ -1,5 +1,4 @@
 import React from 'react';
-import './sectionTop.scss'
 
 const SectionTop = ({title,icon,hideTitle}) => {
     return (

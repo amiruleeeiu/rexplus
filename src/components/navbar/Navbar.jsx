@@ -2,13 +2,9 @@ import React, { useEffect, useState } from 'react';
 import './navbar.scss'
 import logo from '../../assects/logo.png'
 import {NavLink } from 'react-router-dom'
-import { FaAlignJustify } from 'react-icons/fa';
+import { Dropdown } from 'react-bootstrap';
 
 const NAV_LINK=[
-    {
-        path:'/',
-        display:'HOME'
-    },
     {
         path:'/about',
         display:'ABOUT'
@@ -40,7 +36,7 @@ const Navbar = () => {
 
     const [offset, setOffset] = useState(0);
     const[sidebar,setSidebar]=useState(false);
-
+    
     useEffect(()=>{
         const onScroll=()=>setOffset(window.pageYOffset);
         window.addEventListener('scroll', onScroll, { passive: true });
@@ -54,16 +50,40 @@ const Navbar = () => {
                 <img src={logo} alt="rexplus" />
             </div>
             <div className="nav_items ">
-                    {
-                        NAV_LINK.map((nav,index)=><NavLink to={nav.path} key={index} end>{nav.display}</NavLink>)
-                    }
+                <Dropdown
+                    
+                >
+                    <Dropdown.Toggle style={{background:'transparent',border:'none'}}>
+                        Home
+                    </Dropdown.Toggle>
+
+                    <Dropdown.Menu style={{background:'rgb(46, 46, 119)'}}>
+                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
+                {
+                    NAV_LINK.map((nav,index)=><NavLink to={nav.path} key={index} end>{nav.display}</NavLink>)
+                }
             </div>
             <div className="sidebar">
                     <div className={`${sidebar ? 'activeSidebar' : null} sidebar_items`}>
                         <ul>
-                        {
-                            NAV_LINK.map((nav,index)=><li><NavLink to={nav.path} key={index} end>{nav.display}</NavLink></li>)
-                        }
+                            <Dropdown>
+                                <Dropdown.Toggle style={{background:'transparent',border:'none'}}>
+                                    Home
+                                </Dropdown.Toggle>
+            
+                                <Dropdown.Menu style={{background:'rgb(46, 46, 119)',position:'static !important'}}>
+                                    <Dropdown.Item href="#/action-1" style={{color:'white'}}>Action</Dropdown.Item>
+                                    <Dropdown.Item href="#/action-2" style={{color:'white'}}>Another action</Dropdown.Item>
+                                    <Dropdown.Item href="#/action-3" style={{color:'white'}}>Something else</Dropdown.Item>
+                                </Dropdown.Menu>
+                            </Dropdown>
+                            {
+                                NAV_LINK.map((nav,index)=><li><NavLink to={nav.path} key={index} end>{nav.display}</NavLink></li>)
+                            }
                         </ul>
                     </div>
             </div>
